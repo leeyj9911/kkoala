@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".src.login.ForgotActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow"
+            android:text="주접"
+            android:textSize="40dp"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/hu_bareun140"
+
+            >
+
+        </TextView>
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/beer_mug"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:id="@+id/paw_signUpUsername_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이메일 주소"
+            android:textSize="16dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/hu_bareun140"/>
+
+        <EditText
+            android:id="@+id/paw_signUpUsername"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="text" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/code_button"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="인증 코드 발송"
+        android:fontFamily="@font/hu_bareun140"
+        android:backgroundTint="@color/cardview_dark_background"
+        />
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/paw_code_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/hu_bareun140"
+            android:text="인증 코드"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/paw_code_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="text" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/new_paw_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비밀번호 재설정"
+            android:fontFamily="@font/hu_bareun140"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/new_paw_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="text" />
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/new_paw_button"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="확인"
+        android:fontFamily="@font/hu_bareun140"
+        android:backgroundTint="@color/cardview_dark_background"
+        />
+
+
+</LinearLayout>

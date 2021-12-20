@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/aws/app/src/main/res/layout/activity_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/aws/app/src/main/res/layout/activity_fifth.xml" value="0.264" />
+        <entry key="..\:/aws/app/src/main/res/layout/activity_first.xml" value="0.16530797101449277" />
+        <entry key="..\:/aws/app/src/main/res/layout/activity_fourth.xml" value="0.25364583333333335" />
+        <entry key="..\:/aws/app/src/main/res/layout/activity_six.xml" value="0.25364583333333335" />
+        <entry key="..\:/aws/app/src/main/res/layout/category_soju_second.xml" value="0.19021739130434784" />
+        <entry key="..\:/aws/app/src/main/res/layout/fifth_category_item.xml" value="0.16530797101449277" />
+        <entry key="..\:/aws/app/src/main/res/layout/fragment_search.xml" value="0.19021739130434784" />
+        <entry key="..\:/aws/app/src/main/res/layout/six_category_item.xml" value="0.19021739130434784" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/btn_menu_clicked.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/btn_menu_style.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/btn_menu_unclicked.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/btn_star_style.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/btn_style.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/drawable_left_image_alcoholimg.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/drawable_left_image_evaluate.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/drawable_left_image_logout.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/drawable_left_image_service.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/drawable_left_image_write.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/drawable_right_image_arrow.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/indicator_gray.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/indicator_select.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/drawable/indicator_yellow.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/activity_detail.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/catecory_first_item.xml" value="0.2" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_item.xml" value="0.12604166666666666" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_soju_eight_item.xml" value="0.536" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_soju_fifth_item.xml" value="0.12604166666666666" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_soju_fourth_item.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_soju_nine_item.xml" value="0.536" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_soju_seven_item.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_soju_six_item.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/category_soju_third_item.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fifth_category_item.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fourth_category_item.xml" value="0.536" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_fifth_slide.xml" value="0.2" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_fourth.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_fourth2.xml" value="0.10625" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_my_page.xml" value="0.264" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_six_slide.xml" value="0.10625" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_slide.xml" value="0.10625" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_slide_second.xml" value="0.10625" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_third.xml" value="0.12395833333333334" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_third_slide.xml" value="0.10625" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/fragment_write_review.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/second_category_item.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/six_category_item.xml" value="0.536" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/third_category_item.xml" value="0.4" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/layout/viewpager_fragment.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/menu/main_bottom_nevi.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/awsfinal/aws/app/src/main/res/menu/toolbar_menu.xml" value="0.2" />
+        <entry key="..\:/awsfinal/final/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.25729166666666664" />
+        <entry key="..\:/awsfinal/final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25729166666666664" />
+        <entry key="..\:/awsfinal/final/app/src/main/res/layout/fragment_home.xml" value="0.24114583333333334" />
+        <entry key="..\:/awsfinal/final/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25729166666666664" />
+        <entry key="..\:/awsfinal/final/app/src/main/res/mipmap-anydpi-v26/ic_launcher_myicon.xml" value="0.1421875" />
+        <entry key="..\:/awsfinal/final/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1421875" />
+        <entry key="..\:/final/app/src/main/res/layout/activity_auth.xml" value="0.3473731884057971" />
+        <entry key="..\:/final/app/src/main/res/layout/activity_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/activity_fifth.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/activity_first.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/activity_personal.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/activity_second.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/category_soju_eight_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/fourth_category_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/fragement_home_item.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/fragment_fifth_slide.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/fragment_home.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/fragment_my_page.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/layout/fragment_search.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/menu/main_bottom_nevi.xml" value="0.25364583333333335" />
+        <entry key="..\:/final/app/src/main/res/menu/toolbar_menu.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

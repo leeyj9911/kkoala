@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/toolbar_menu"
+        app:titleTextColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:fontFamily="@font/hu_bareun140"
+                android:text="주접"
+                android:textColor="@color/white"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/toolbar_img"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/beer_mug" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:backgroundTint="@color/white"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="@+id/view"
+                    app:layout_constraintEnd_toEndOf="@+id/view"
+                    app:layout_constraintStart_toStartOf="@+id/view"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/detail_alcoholimg"
+                        :layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:scaleType="fitCenter"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginVertical="20dp"
+                        android:src="@drawable/soju"
+                        tools:ignore="MissingConstraints" />
+
+
+                    <LinearLayout
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginVertical="20dp"
+                        android:orientation="vertical"
+                        android:layout_marginRight="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/detail_alcoholname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/title_gothic3"
+                            android:text="처음처럼"
+                            android:textColor="@color/gray_ddark"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/detail_alcoholity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/title_gothic1"
+                            android:text="도수 :  16.9%"
+                            android:textColor="@color/gray_ddark"
+                            android:textSize="15sp" />
+
+                        <TextView
+                            android:id="@+id/detail_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:fontFamily="@font/title_gothic1"
+                            android:text="가격 : 1400원"
+                            android:textColor="@color/gray_ddark"
+                            android:textSize="15sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="17dp"
+                                android:layout_height="17dp"
+                                android:src="@drawable/star" />
+
+                            <TextView
+                                android:id="@+id/detail_score"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="7dp"
+                                android:fontFamily="@font/title_gothic1"
+                                android:text="3.7"
+                                android:textColor="@color/gray_ddark"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/detail_keyword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="10dp"
+                            android:fontFamily="@font/title_gothic1"
+                            android:text="#부드러운 #깔끔한 #모임용"
+                            android:textColor="@color/gray_ddark"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_wiki"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btn_style"
+                    android:fontFamily="@font/hu_bareun140"
+                    android:text="상세정보"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_youtube"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/btn_style"
+                    android:fontFamily="@font/hu_bareun140"
+                    android:text="유튜브"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/detail_line1"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/yellow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:fontFamily="@font/title_gothic3"
+                    android:text="리뷰"
+                    android:textColor="@color/gray_ddark"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="285dp"
+                    android:fontFamily="@font/title_gothic1"
+                    android:text="더보기 >"
+                    android:textColor="@color/gray"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/tv_review1"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:fontFamily="@font/title_gothic1"
+                    android:gravity="center_vertical"
+                    android:text='"review1"'
+                    android:textAlignment="center"
+                    android:textColor="@color/gray_ddark"
+                    android:textSize="15sp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/yellow_light"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/tv_review2"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:fontFamily="@font/title_gothic1"
+                    android:gravity="center_vertical"
+                    android:text='"review2"'
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gray_ddark"
+                    android:textSize="15sp"
+                    android:layout_marginVertical="10dp"
+                    android:backgroundTint="@color/yellow_light"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:padding="5dp"
+                    android:id="@+id/tv_review3"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:fontFamily="@font/title_gothic1"
+                    android:gravity="center_vertical"
+                    android:text='"review3"'
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textColor="@color/gray_ddark"
+                    android:backgroundTint="@color/yellow_light"
+                    android:textSize="15sp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/detail_line2"
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_marginVertical="30dp"
+                android:background="@color/yellow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="@font/title_gothic3"
+                android:text="추천은 만족하시나요?"
+                android:textColor="@color/gray_ddark"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_like"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginRight="20dp"
+
+                    android:background="@drawable/btn_style"
+                    android:fontFamily="@font/hu_bareun140"
+                    android:text="좋아요👍🏻"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_dislike"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/btn_style"
+                    android:fontFamily="@font/hu_bareun140"
+                    android:text="싫어요👎🏻"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

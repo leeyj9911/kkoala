@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aws">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".config.ApplicationClass"
+        android:allowBackup="true"
+        android:exported="false"
+        android:icon="@mipmap/ic_launcher_myicon"
+        android:label="주접"
+        android:roundIcon="@mipmap/ic_launcher_myicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aws">
+        <activity
+            android:name=".PersonalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity android:name=".src.login.AuthActivity"/>
+        <activity android:name=".src.login.ForgotActivity"/>
+        <activity android:name=".src.login.OkActivity"/>
+        <activity android:name=".src.login.SignUpActivity"/>
+        <activity android:name=".category.six.SixActivity" />
+        <activity android:name=".category.five.FifthActivity" />
+        <activity android:name=".category.four.FourthActivity" />
+        <activity android:name=".category.third.ThirdActivity" />
+        <activity android:name=".category.second.SecondActivity" />
+        <activity android:name=".category.first.firstActivity" />
+        <activity
+            android:name=".src.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".src.main.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

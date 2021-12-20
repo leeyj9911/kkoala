@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_nevi_home"
+        android:enabled="true"
+        android:title=""
+        android:icon="@drawable/bottom_navi_home"/>
+    <item
+        android:id="@+id/main_nevi_serch"
+        android:enabled="true"
+        android:title=""
+        android:icon="@drawable/bottom_nevi_search"/>
+    <item
+        android:id="@+id/main_nevi_my"
+        android:enabled="true"
+        android:title=""
+        android:icon="@drawable/bottom_nevi_my"/>
+</menu>

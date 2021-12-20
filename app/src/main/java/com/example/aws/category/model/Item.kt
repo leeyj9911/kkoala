@@ -1,0 +1,17 @@
+package com.example.aws.category.model
+
+data class Item(
+    val EVENT_VALUE: EVENTVALUE,
+    val EVENT_VALUE1: EVENTVALUE1,
+    val EVENT_VALUE2: EVENTVALUE2,
+    val EVENT_VALUE3: EVENTVALUE3,
+    val ITEM_ID: ITEMID,
+    val ITEM_NAME: ITEMNAME,
+    val ITEM_NUM: ITEMNUM,
+    val ITEM_TYPE1: ITEMTYPE1,
+    val ITEM_TYPE2: ITEMTYPE2,
+    val ITEM_TYPE3: ITEMTYPE3,
+    val ITEM_TYPE4: ITEMTYPE4,
+    val ITEM_VALUE1: ITEMVALUE1,
+    val TYPE1_1: TYPE11
+)

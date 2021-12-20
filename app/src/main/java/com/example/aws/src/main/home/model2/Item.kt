@@ -1,0 +1,20 @@
+package com.example.aws.src.main.home.model2
+
+data class Item(
+    val ALL_ITEM: ALLITEM,
+    val EVENT_VALUE: EVENTVALUE,
+    val EVENT_VALUE1: EVENTVALUE1,
+    val EVENT_VALUE2: EVENTVALUE2,
+    val EVENT_VALUE3: EVENTVALUE3,
+    val ITEM_ID: ITEMID,
+    val ITEM_NAME: ITEMNAME,
+    val ITEM_NUM: ITEMNUM,
+    val ITEM_TYPE1: ITEMTYPE1,
+    val ITEM_TYPE3: ITEMTYPE3,
+    val ITEM_TYPE4: ITEMTYPE4,
+    val ITEM_VALUE1: ITEMVALUE1,
+    val KEYWORD1: KEYWORD1,
+    val KEYWORD2: KEYWORD2,
+    val KEYWORD3: KEYWORD3,
+    val TYPE1_1: TYPE11
+)

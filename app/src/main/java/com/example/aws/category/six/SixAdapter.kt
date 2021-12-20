@@ -1,0 +1,41 @@
+package com.example.aws.category.six
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import com.example.aws.category.model.CategoryResponse
+import com.example.aws.category.model2.ItemCategoryResponse
+import com.example.aws.databinding.SecondCategoryItemBinding
+import com.example.aws.databinding.SixCategoryItemBinding
+import retrofit2.Callback
+
+class SixAdapter(val context: SixActivity, private val SixItemArrayList: ArrayList<SixItemData>):
+    RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+    override fun getItemCount(): Int =SixItemArrayList.size
+
+    override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
+        if (holder is SixViewHolder){
+            holder.view(SixItemArrayList[position])
+            holder.itemView.setOnClickListener {
+                itemClickListener.onClick(it,position)
+            }
+        }
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
+        val layoutInflater = LayoutInflater.from(parent.context)
+        val binding = SixCategoryItemBinding.inflate(layoutInflater,parent,false)
+        return SixViewHolder(context,binding)
+    }
+    interface OnItemClickListener{
+        fun onClick(v: View, position: Int)
+    }
+    fun setItemClickListener(onItemClickListener: OnItemClickListener){
+        this.itemClickListener = onItemClickListener
+    }
+    private  lateinit var itemClickListener : OnItemClickListener
+
+
+
+}

@@ -1,0 +1,168 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_light"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:foregroundGravity="center"
+        >
+
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="마이페이지"
+            android:gravity="start"
+            android:fontFamily="@font/title_gothic3"
+            android:textColor="@color/yellow"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:textSize="20sp"
+            android:autoSizeTextType="uniform"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="337dp"
+                android:layout_height="138dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:id="@+id/profileimg_view"
+                :layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/profile_img"
+                app:layout_constraintEnd_toEndOf="@+id/view"
+                app:layout_constraintStart_toStartOf="@+id/view"
+                app:layout_constraintTop_toTopOf="@+id/view"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/title_gothic2"
+                android:text="이름(성별)"
+                android:textColor="@color/gray_ddark"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/view"
+                app:layout_constraintStart_toStartOf="@+id/view"
+                app:layout_constraintTop_toBottomOf="@+id/profileimg_view" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_writeReview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t 리뷰 작성"
+                android:gravity="start"
+                android:fontFamily="@font/title_gothic1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="20dp"
+                android:background="@drawable/btn_menu_style"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/drawable_left_image_write"
+                android:drawableRight="@drawable/drawable_right_image_arrow"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_recommendation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t 추천 받은 술 다시 보기"
+                android:gravity="start"
+                android:fontFamily="@font/title_gothic1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:background="@drawable/btn_menu_style"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/drawable_left_image_alcoholimg"
+                android:drawableRight="@drawable/drawable_right_image_arrow"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_evaluate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t 어플 평가하기"
+                android:gravity="start"
+                android:fontFamily="@font/title_gothic1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:background="@drawable/btn_menu_style"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/drawable_left_image_evaluate"
+                android:drawableRight="@drawable/drawable_right_image_arrow"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_serviceCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t 고객센터"
+                android:gravity="start"
+                android:fontFamily="@font/title_gothic1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:background="@drawable/btn_menu_style"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/drawable_left_image_service"
+                android:drawableRight="@drawable/drawable_right_image_arrow"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t 로그아웃"
+                android:gravity="start"
+                android:fontFamily="@font/title_gothic1"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:background="@drawable/btn_menu_style"
+                android:textSize="15sp"
+                android:drawableLeft="@drawable/drawable_left_image_logout"
+                />
+
+        </LinearLayout>-->
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

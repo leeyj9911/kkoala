@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PersonalActivity">
+
+    <TextView
+        android:id="@+id/personal_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/next"
+        android:text=" 선택한 술과 비슷한 술 3가지"
+        android:textColor="@color/yellow"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_light"
+        app:layout_constraintTop_toBottomOf="@id/personal_tx" />
+
+    <TextView
+        android:id="@+id/per_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:text="첫번째"
+        android:textColor="@color/yellow_dark"
+        android:textSize="14sp"
+        android:fontFamily="@font/title_gothic1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_im"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/soju"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/per_first" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="이름"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/item_im"
+        app:layout_constraintLeft_toRightOf="@id/item_im"
+        app:layout_constraintTop_toTopOf="@id/item_im"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="가격"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_im"
+        app:layout_constraintLeft_toRightOf="@id/item_im"
+        app:layout_constraintTop_toTopOf="@id/item_im"
+        app:layout_constraintVertical_bias="0.4" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_star"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/star"
+        app:layout_constraintBottom_toBottomOf="@id/item_im"
+        app:layout_constraintLeft_toRightOf="@id/item_im"
+        app:layout_constraintTop_toTopOf="@id/item_im"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/item_st"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="평점"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_star"
+        app:layout_constraintLeft_toRightOf="@id/item_star"
+        app:layout_constraintTop_toTopOf="@id/item_star" />
+
+    <TextView
+        android:id="@+id/item_keyword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="#키워드"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_im"
+        app:layout_constraintLeft_toRightOf="@id/item_im"
+        app:layout_constraintTop_toTopOf="@id/item_im"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_keyword" />
+
+    <TextView
+        android:id="@+id/per_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:text="두번째"
+        android:textColor="@color/yellow_dark"
+        android:fontFamily="@font/title_gothic1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view2" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_im2"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/soju"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/per_second" />
+
+    <TextView
+        android:id="@+id/item_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="이름"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/item_im2"
+        app:layout_constraintLeft_toRightOf="@id/item_im2"
+        app:layout_constraintTop_toTopOf="@id/item_im2"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/item_price2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="가격"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_im2"
+        app:layout_constraintLeft_toRightOf="@id/item_im2"
+        app:layout_constraintTop_toTopOf="@id/item_im2"
+        app:layout_constraintVertical_bias="0.4" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_star2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/star"
+        app:layout_constraintBottom_toBottomOf="@id/item_im2"
+        app:layout_constraintLeft_toRightOf="@id/item_im2"
+        app:layout_constraintTop_toTopOf="@id/item_im2"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/item_st2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="평점"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_star2"
+        app:layout_constraintLeft_toRightOf="@id/item_star2"
+        app:layout_constraintTop_toTopOf="@id/item_star2" />
+
+    <TextView
+        android:id="@+id/item_keyword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="#키워드"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_im2"
+        app:layout_constraintLeft_toRightOf="@id/item_im2"
+        app:layout_constraintTop_toTopOf="@id/item_im2"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_keyword2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="세번째"
+        android:textColor="@color/yellow_dark"
+        android:fontFamily="@font/title_gothic1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view3"
+        android:textSize="14sp"
+        android:id="@+id/per_third"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_im3"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/soju"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/per_third" />
+
+    <TextView
+        android:id="@+id/item_name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="이름"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/item_im3"
+        app:layout_constraintLeft_toRightOf="@id/item_im3"
+        app:layout_constraintTop_toTopOf="@id/item_im3"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/item_price3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:text="가격"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_im3"
+        app:layout_constraintLeft_toRightOf="@id/item_im3"
+        app:layout_constraintTop_toTopOf="@id/item_im3"
+        app:layout_constraintVertical_bias="0.4" />
+
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_star3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/star"
+        app:layout_constraintBottom_toBottomOf="@id/item_im3"
+        app:layout_constraintLeft_toRightOf="@id/item_im3"
+        app:layout_constraintTop_toTopOf="@id/item_im3"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/item_st3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="평점"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/item_star3"
+        app:layout_constraintLeft_toRightOf="@id/item_star3"
+        app:layout_constraintTop_toTopOf="@id/item_star3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#키워드"
+        android:textSize="13sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@id/item_im3"
+        app:layout_constraintBottom_toBottomOf="@id/item_im3"
+        app:layout_constraintLeft_toRightOf="@id/item_im3"
+        android:layout_marginStart="20dp"
+        app:layout_constraintVertical_bias="0.9"
+        android:id="@+id/item_keyword3"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:background="@color/gray_light"
+        android:id="@+id/view4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/item_keyword3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
